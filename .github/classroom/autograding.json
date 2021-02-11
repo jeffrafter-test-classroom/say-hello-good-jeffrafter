@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Say Hello",
+      "setup": "javac *.java",
+      "run": "java -cp . Hello",
+      "input": "Jeff",
+      "output": "Hello Jeff",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
